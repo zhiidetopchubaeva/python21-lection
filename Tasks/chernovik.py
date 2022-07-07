@@ -1,12 +1,20 @@
+class Taxi:
+    def __init__(self, name, cost, cost_km):
+        self.name = name 
+        self.cost = cost
+        self.cost_km = cost_km
 
+    def get_total_cost(self, km):
+        trip_price = self.cost + self.cost_km * km
+        return f'Такси {self.name}, стоимость такси: {trip_price} сом'
 
+taxi1 = Taxi("Beka", 80, 10)
+taxi2 = Taxi("sema", 80, 6)
+taxi3 = Taxi("manas", 80, 12)
 
-dict_ = {'Timur': {'history': 90,'math': 95,'literature': 91},
- 
-         'Olga': {'history': 92,'math': 96,'literature': 81},
- 
-         'Nik': {'history': 84,'math': 85,'literature': 87}
-    }
+print(taxi1.get_total_cost(12))
+print(taxi2.get_total_cost(10))
+print(taxi3.get_total_cost(3))
 
 
 

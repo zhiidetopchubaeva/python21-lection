@@ -1,5 +1,5 @@
-
-
+"============== Class,static, instance methods ================================="
+# instance метод (метод объекта) - метод, еоторый принимает первым аргументом self(объект). Вызываем instance методы у объекта
 
 class A:
     def  instance_method(self):

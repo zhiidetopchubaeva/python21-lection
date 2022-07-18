@@ -51,6 +51,18 @@ for pizza in pizzas:
     pizza.cook()
 
 
+
+class Person:
+    name = "Nastya"
+
+    @staticmethod
+    def create_person():
+        return Person()
+
+person = Person.create_person()
+print(person.name) # Nastya
+
+
 # Static методы - просто функции внутри класса, которые не взаимодействуют ни с классом, ни с объектом
 
 class Square:

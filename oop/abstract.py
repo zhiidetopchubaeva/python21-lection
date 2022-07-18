@@ -39,4 +39,4 @@ dog.voice() # гав-гав
 
 cat = Cat()
 cat.voice() # мяу-мяу
-cat.legs
+print(cat.legs) # 4

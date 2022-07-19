@@ -50,4 +50,4 @@ class A:
         return self.__a
 
     def set_a(self):
-        return 
+        return

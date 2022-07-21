@@ -63,6 +63,9 @@ ALTER TABLE <имя таблицы> ALTER COLUMN <новые настройки>
 # Удаление таблицы полностью
 DROP TABLE <имя таблицы>;
 
+# Изменение названия таблицы на другую
+ALTER TABLE table_name RENAME TO new_table_name;
+
 # Получение информации
 SELECT <имена нужных нам полей (или *)> FROM <имя таблицы>;
 
